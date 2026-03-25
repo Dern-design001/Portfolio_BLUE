@@ -322,9 +322,19 @@ const Home = () => {
             <div className="col-lg-6 reveal">
               <div className="d-flex flex-column gap-4 h-100">
                 <div className="p-card">
-                  <div className="d-flex align-items-center gap-3 mb-3">
-                    <i className="bi bi-shield-check text-info fs-3"></i>
-                    <h3 className="fw-bold mb-0">CertiHub</h3>
+                  <div className="d-flex align-items-center justify-content-between mb-3">
+                    <div className="d-flex align-items-center gap-3">
+                      <i className="bi bi-shield-check text-info fs-3"></i>
+                      <h3 className="fw-bold mb-0">CertiHub</h3>
+                    </div>
+                    <a 
+                      href="https://certi-hub-mu.vercel.app" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="btn btn-sm btn-outline-info rounded-pill px-3"
+                    >
+                      Live <i className="bi bi-box-arrow-up-right ms-1"></i>
+                    </a>
                   </div>
                   <p className="text-white small mb-4">
                     "A centralized ecosystem for academic validation and professional growth
@@ -342,9 +352,19 @@ const Home = () => {
                 </div>
 
                 <div className="p-card mt-4">
-                  <div className="d-flex align-items-center gap-3 mb-3">
-                    <i className="bi bi-briefcase-fill text-info fs-3"></i>
-                    <h3 className="fw-bold mb-0">CareerHome</h3>
+                  <div className="d-flex align-items-center justify-content-between mb-3">
+                    <div className="d-flex align-items-center gap-3">
+                      <i className="bi bi-briefcase-fill text-info fs-3"></i>
+                      <h3 className="fw-bold mb-0">CareerHome</h3>
+                    </div>
+                    <a 
+                      href="https://career-hub-rho.vercel.app" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="btn btn-sm btn-outline-info rounded-pill px-3"
+                    >
+                      Live <i className="bi bi-box-arrow-up-right ms-1"></i>
+                    </a>
                   </div>
                   <p className="text-white small mb-4">
                     "An integrated career development platform focused on streamlining professional
@@ -372,7 +392,7 @@ const Home = () => {
                       rel="noopener noreferrer" 
                       className="btn btn-sm btn-outline-info rounded-pill px-3"
                     >
-                      Live Demo <i className="bi bi-box-arrow-up-right ms-1"></i>
+                      Live <i className="bi bi-box-arrow-up-right ms-1"></i>
                     </a>
                   </div>
                   <p className="text-white small mb-4">
