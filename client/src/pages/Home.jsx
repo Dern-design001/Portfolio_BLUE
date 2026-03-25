@@ -341,7 +341,7 @@ const Home = () => {
                   </div>
                 </div>
 
-                <div className="p-card">
+                <div className="p-card mt-4">
                   <div className="d-flex align-items-center gap-3 mb-3">
                     <i className="bi bi-briefcase-fill text-info fs-3"></i>
                     <h3 className="fw-bold mb-0">CareerHome</h3>
@@ -356,6 +356,36 @@ const Home = () => {
                     </span>
                     <span className="badge rounded-pill border border-info text-info">
                       Professional Development
+                    </span>
+                  </div>
+                </div>
+
+                <div className="p-card mt-4">
+                  <div className="d-flex align-items-center justify-content-between mb-3">
+                    <div className="d-flex align-items-center gap-3">
+                      <i className="bi bi-check2-all text-info fs-3"></i>
+                      <h3 className="fw-bold mb-0">Unfold</h3>
+                    </div>
+                    <a 
+                      href="https://todo-sigma-self.vercel.app/" 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="btn btn-sm btn-outline-info rounded-pill px-3"
+                    >
+                      Live Demo <i className="bi bi-box-arrow-up-right ms-1"></i>
+                    </a>
+                  </div>
+                  <p className="text-white small mb-4">
+                    "A high-performance, cinematic task management application designed for 
+                    focus and workflow clarity. Built with a focus on immersive user 
+                    experience."
+                  </p>
+                  <div className="tag-list justify-content-start">
+                    <span className="badge rounded-pill border border-info text-info">
+                      Task Management
+                    </span>
+                    <span className="badge rounded-pill border border-info text-info">
+                      Vercel
                     </span>
                   </div>
                 </div>
