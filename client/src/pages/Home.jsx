@@ -92,6 +92,9 @@ const Home = () => {
         <div className="container text-center">
           <div className="row justify-content-center">
             <div className="col-lg-10 reveal">
+              <span className="hero-tagline mb-3 d-block text-primary fw-medium" style={{ letterSpacing: '0.1em', textTransform: 'uppercase', fontSize: '0.9rem' }}>
+                "I am a Developer who speaks Design and a Designer who understands Code."
+              </span>
               <h1 className="display-1 fw-bold mb-4">
                 Michelle Susan
                 <br />
